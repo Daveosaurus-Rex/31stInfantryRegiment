@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title> Join Us </title>
+    <link href="styles/Newsletterstyle.css" rel="stylesheet" />
+    <link
+       href="https://fonts.googleapis.com/css?
+	   family=Open+Sans"
+       rel="stylesheet" />  
+	   
+    <style>
+		.container {
+      position: relative;
+      width: 100%;
+      max-width: 1000px;
+     }
+
+        body {
+		height: 100%;
+		margin: 0;
+		}
+
+/*  Printable Application Button */
+       .container .btn1 {
+        position: absolute;
+        top: 50%;
+        left:10%;
+        transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);
+        background-color: #f1f1f1; color: black; font-size: 17px;
+        padding: 10px 10px; border: none; cursor: pointer; border-radius: 10px; text-align: center;
+        }
+		
+       .container .btn1:hover {
+	    onclick="window.location.href='index.html';"
+        background-color: yellow;
+        color: black;
+        }	
+    </style> 	   
+ </head>
+ 
+  <body>
+      <button onclick="window.location.href='index.html';">
+        Return to Home
+      </button>
+  <h1> Join Us </h1>
+    <img src="@joinus/MontgomeryFlaggPoster.jpg" width=500 
+	     alt=" Join Us " />
+		 
+	<h4 style="border: none; margin-top: 0 !important; margin-bottom: 0 !important;"> MEMBERSHIPS </h4>
+    <p  style="border: none; margin-top: 0 !important; margin-bottom: 0 !important; color: black;">  
+	 The 31st Infantry Regiment Association has only "Lifetime" memberships. You pay dues one time, and
+	 never need to worry about annual dues payings. In recognition of the various stages that we all transition
+	 through in our lives, the level of lifetime dues is graduated according to age cohorts and active duty
+	 and Associate members (i.e., for those who didn't serve but wish to associate with us; e.g., family members
+	 of former Polar Bears) the dues are $25; for our members ages 49 and under, $60; for ages 50-59 $45; for
+	 ages 60 and over, $35.
+	 </p>
+	 <p style="border: none; margin-top: 0 !important; margin-bottom: 0 !important; color: black;">
+        It is our intent that the dues amount not be a barrier to entry to the Association, so they are set to be affordable.
+        However, the dues schedule may change from time to time to adjust for inflation.	 
+	 </p>
+	 
+<div class="container">
+<!-- Update the edition number in the filename on the next line -->
+           <button style="background-color: lemonchiffon; border: 8px double #cccccc;  border-radius: 10px; padding: 10px;" 
+		   onclick="window.location.href='@joinus/Membership-Application-2.pdf';"> Printable Membership Application </button>
+</div>
+
+ </body>
+</html>
